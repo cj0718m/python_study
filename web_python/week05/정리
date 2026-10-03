@@ -1,0 +1,14 @@
+자료형 정리
+1.int(정수)
+2.float(실수)
+3.str(문자열)
+4.list(리스트)
+5.tuple(튜플)
+6.set(집합)
+7.dictionary(딕셔너리)
+자료형들의 mutable immutable 정리
+mutable=리스트,집합,딕셔너리
+immutable=정수,실수,문자열,튜플
+자료형들의 iterable 저일
+리스트,튜플,딕셔너리,문자열,세트 O
+정수,실수 X

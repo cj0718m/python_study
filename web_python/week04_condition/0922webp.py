@@ -55,6 +55,12 @@ score[("Park","Lee")]=100
 score["Hong"]=40
 print(score[("Park")])
 
+student_no={}
+student_no["Bobo"]=100
+student_no["Hello"]=99
+print(student_no)
+
+
 #pacing,unpacking 연습
 data="Python",2026,"KHU"
 a,*b=data   #*뒤에붙은것부터 리스트로 쭉 가져오기
@@ -88,4 +94,3 @@ student = {
 }
 student["age"]=100
 print(student["age"])
-

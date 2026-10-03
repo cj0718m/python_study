@@ -58,13 +58,8 @@ b=a.copy()  #카피는 똑같이 생긴것을 새로 하나 만드는것 생긴�
 print(a is b,a==b)
 
 a=[1,2,3,4,5]
-a[1:-1]=["리센느"]
+a[1:-1]="리센느"
 print(a)
-
-a=[1,2,3,4,5]
-a[1:-1]="리센느"    #차이점 구별 잘하기
-print(a)
-
 
 students=["a","b","c","d"]
 students[1:3]=["e","f","g"] #구간 지정해서 넣어줄때에는 list 아님
@@ -75,7 +70,7 @@ students[1]=["e","f","g"] #그냥 넣어줄때에는 list임
 print(students,students[2])
 
 students = ["AKMU", "DAY6", "IVE", "YOUNHA"]
-students[1:-1]=["바보똥개"]   #잘라서 넣는다
+students[1:-1]=["바보똥개","멍청이"]   #잘라서 넣는다
 print(students)
 
 students = ["AKMU", "DAY6", "IVE", "YOUNHA"]
