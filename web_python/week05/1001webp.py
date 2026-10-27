@@ -52,17 +52,23 @@ a=["p",'l','a','n','A']
 for i in range(1,5): 
     print(a[i])
     
-for i in range(5):
-    print(i)
-    if i==3:
-        print("3찾았다")
-        break
-else:    
-    print("3을 못찾았다")
+a={"Park":1,"Kim":2,"Lee":3}
+for name,num in a.items():  #이렇게 하면 튜플로 나오지 않음
+    print(name,num)
     
-for i in range(5):
-    print(i)
-    if i == 2:
-        break
-else:
-    print("반복 끝!")
+scores={"Kim":80,"Lee":90,"Park":100}
+for name,score in scores.items():
+    print(f"{name}:{score}")
+
+    
+for a,b,c in [(1,2,3),(4,5,6),(7,8,9)]:
+    print(a,b,c)
+    
+    
+a,b,c=[(1,2,3),4,"a"]
+print(a,b,c)
+
+i=[1,2,3,4]
+print(i+10)
+
+" "*(N-i-1)+"*"*(i+1)

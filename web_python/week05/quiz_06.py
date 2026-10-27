@@ -10,6 +10,7 @@ team1=['Park','Kim']
 team2=['Lee','Hong']
 score[team1]=100
 score[team2]=100
+print(score)
 print(score[team1]/score[team2])    #dictonary의 key는 무조건 immutable 해야함 int,str,tuple
 
 score={}
@@ -20,7 +21,7 @@ print(score[team1,team2])
 
 score=["Park"]
 print(score)
-s=str(score[:]) #리스트 출력 기억 잘하기
+s=str(score) #리스트 출력 기억 잘하기
 print(s)
 
 b=["park"]  #list
